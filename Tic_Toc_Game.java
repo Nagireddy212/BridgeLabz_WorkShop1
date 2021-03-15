@@ -2,11 +2,6 @@ package tictactoe;
 
 public class Tic_Toc_Game
 {
-    public static void main(String[] args)
-    {
-        char[] board = createBoard();
-    }
-
     public static char[] createBoard()
     {
         char[] board = new char[10];
@@ -14,6 +9,10 @@ public class Tic_Toc_Game
         {
             board[index] = ' ';
         }
-        return  board;
+	public static void main(String[] args)
+        {
+        char[] board = createBoard();
+    	}
+
     }
 }
